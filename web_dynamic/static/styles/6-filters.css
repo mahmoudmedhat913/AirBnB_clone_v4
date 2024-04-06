@@ -105,6 +105,7 @@ button:hover {
     visibility: visible;
 }
 
+
 .amenities .content-text{
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -117,7 +118,7 @@ button:hover {
 
 .locations h6{
     margin:0rem;
-    padding:left;
+    padding-left: 1rem;
     line-height:1rem;
 }
 
