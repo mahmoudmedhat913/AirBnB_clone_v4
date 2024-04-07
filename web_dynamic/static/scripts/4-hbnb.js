@@ -73,9 +73,10 @@ ${places[i].description}
 </div>
 </article>
 `);
+      }
+    },
+    error: function (xhr, status) {
+      console.log('error ' + status);
     }
-  },
-  error: function (xhr, status) {
-    console.log('error ' + status);
-  }
-});
+  });
+}
