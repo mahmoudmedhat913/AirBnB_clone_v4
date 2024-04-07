@@ -17,7 +17,6 @@ $(document).ready(function () {
     console.log(myId);
   });
 
-
   $('.filters button').click(function (event) {
     event.preventDefault();
 
