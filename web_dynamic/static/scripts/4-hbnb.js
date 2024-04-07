@@ -43,7 +43,6 @@ $(document).ready(function () {
   listPlaces();
 });
 
-
 function listPlaces (amenities = '{}') {
   $.ajax({
     type: 'POST',
